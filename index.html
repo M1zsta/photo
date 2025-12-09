@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Петрова | Фотограф</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">Анна Петрова | Фотограф</a>
+
+                <!-- Десктопное меню -->
+                <ul class="nav-list">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+
+                <!-- Мобильное гамбургер-меню -->
+                <button class="menu-toggle" aria-label="Открыть меню">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Приветственный блок -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Профессиональная фотосъёмка</h1>
+                <p class="slogan">Ловлю моменты, создаю воспоминания</p>
+                <a href="#contacts" class="btn">Связаться со мной</a>
+            </div>
+        </section>
+
+        <!-- Раздел "Портфолио" -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Мои работы</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/portfolio1.jpg" alt="Свадебная съёмка">
+                        <div class="caption">Свадебная съёмка</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/portfolio2.jpg" alt="Портрет">
+                        <div class="caption">Портрет</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/portfolio3.jpg" alt="Пейзаж">
+                        <div class="caption">Пейзаж</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/portfolio4.jpg"
+                            alt="Семейная фотосессия">
+                        <div class="caption">Семейная фотосессия</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/portfolio5.jpg"
+                            alt="Ивент-фотография">
+                        <div class="caption">Ивент-фотография</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/portfolio6.jpg"
+                            alt="Креативный портрет">
+                        <div class="caption">Креативный портрет</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Услуги" -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Услуги и цены</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">💍</div>
+                        <h3>Свадебная съёмка</h3>
+                        <p>Полное сопровождение вашего особенного дня: от подготовки до получения готовых фотографий.
+                        </p>
+                        <div class="price">от 25 000 ₽</div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">👤</div>
+                        <h3>Портретная съёмка</h3>
+                        <p>Индивидуальная или групповая портретная съёмка в студии или на выбранной вами локации.</p>
+                        <div class="price">от 8 000 ₽</div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">👨‍👩‍👧‍👦</div>
+                        <h3>Семейная фотосессия</h3>
+                        <p>Теплые и естественные снимки вашей семьи, которые останутся в памяти на долгие годы.</p>
+                        <div class="price">от 12 000 ₽</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел "Контакты" -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2>Связаться со мной</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Контактная информация</h3>
+                        <ul>
+                            <li><i class="fas fa-phone"></i> Телефон: +7 (999) 123-45-67</li>
+                            <li><i class="fas fa-envelope"></i> Email: photo@example.com</li>
+                            <li><i class="fab fa-telegram"></i> Telegram: @photo_anna</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Адрес: г. Москва, ул. Творческая, д. 10</li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form">
+                        <h3>Напишите мне</h3>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Ваш Email" required>
+                        <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    © 2025 Анна Петрова. Все права защищены.
+                </div>
+
+                <div class="social-links">
+                    <a href="https://vk.com" target="_blank" aria-label="ВКонтакте"><i class="fab fa-vk"></i></a>
+                    <a href="https://telegram.org" target="_blank" aria-label="Telegram"><i
+                            class="fab fa-telegram"></i></a>
+                </div>
+
+                <a href="#home" class="back-to-top">Наверх ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
